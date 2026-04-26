@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Template Setup"
+rootProject.name = "Habit Tracker"
 include(":app")
  

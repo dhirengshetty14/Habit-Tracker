@@ -1,4 +1,4 @@
-package com.projs.templatesetup
+package com.projs.habitapp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -19,29 +19,10 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             TemplateSetupTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+              
                 }
             }
         }
     }
-}
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
 
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    TemplateSetupTheme {
-        Greeting("Android")
-    }
-}

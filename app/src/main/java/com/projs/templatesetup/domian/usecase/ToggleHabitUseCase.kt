@@ -1,0 +1,9 @@
+package com.projs.templatesetup.domian.usecase
+
+import com.projs.templatesetup.domian.repository.IHabitRepo
+
+class ToggleHabitUseCas(private val repo: IHabitRepo) {
+    suspend fun invoke(id:Int, completed: Boolean){
+        repo.toggleHabit(id, completed)
+    }
+}

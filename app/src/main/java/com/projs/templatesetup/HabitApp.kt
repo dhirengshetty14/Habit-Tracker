@@ -1,4 +1,4 @@
-package com.projs.templatesetup
+package com.projs.habitapp
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
@@ -13,4 +13,4 @@ import dagger.hilt.android.HiltAndroidApp
  *       ... >
  */
 @HiltAndroidApp
-class TemplateApplication : Application()
+class HabitApp : Application()

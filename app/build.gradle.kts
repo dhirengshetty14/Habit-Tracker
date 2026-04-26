@@ -6,13 +6,13 @@ plugins {
 }
 
 android {
-    namespace = "com.projs.templatesetup"
+    namespace = "com.projs.habitapp"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.projs.templatesetup"
+        applicationId = "com.projs.habitapp"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

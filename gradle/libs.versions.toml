@@ -2,7 +2,7 @@
 # Core build tooling (MUST stay version-aligned)
 agp = "9.0.1"
 kotlin = "2.0.21"
-ksp = "2.0.21-1.0.28"          # MUST match kotlin version exactly
+ksp = "2.0.21-1.0.28"
 
 # AndroidX core
 coreKtx = "1.18.0"
